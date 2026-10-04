@@ -5,9 +5,12 @@
 > This fork and BlueWake, the project it started from, are becoming one project, maintained together by
 > Elliott and Chris. Elliott's work is being brought into BlueWake with his authorship.
 >
+> - **Downloads have moved to BlueWake.** The Windows build is on [BlueWake's Releases page](https://github.com/chrissotraidis/bluewake/releases/latest).
+>   On Mac, iPhone and iPad you build BlueWake from your own disc ([how](https://github.com/chrissotraidis/bluewake#getting-started)). The releases here
+>   are unpublished.
 > - **Please report bugs and request features on [BlueWake](https://github.com/chrissotraidis/bluewake/issues)**,
 >   not here. Mention whether you use a Wind Waker Recomp release or a BlueWake build.
-> - Open issues and pull requests here will be moved to BlueWake with a link back.
+> - Open issues here have been moved to BlueWake, each with a link back.
 > - On Windows, saves carry over: both keep them in `%APPDATA%\BlueWake`.
 > - Questions: the [Discord](https://discord.gg/xwHfUD2bxW), shared by both projects.
 > - Details of the move: [migration log](https://github.com/chrissotraidis/bluewake/blob/main/docs/WIND_WAKER_RECOMP_MIGRATION.md).
@@ -43,10 +46,9 @@ credits are preserved below and in [RIGHTS_AND_LICENSES.md](RIGHTS_AND_LICENSES.
 > for GameCube, USA version (`GZLE01`, revision 0). No disc image, game files, textures, audio or saves
 > are included anywhere: the app asks for your disc image and checks it.
 >
-> **Windows and Mac: download and play.** Ready-made apps for Windows 10 and 11 (x64) and Apple Silicon
-> Macs (macOS 15 or later) are on the [Releases page](https://github.com/elliotttate/Wind-Waker-Recomp/releases).
-> They contain the recompiled game code; at the first launch you choose your disc image (`.iso`, `.gcm`
-> or a Dolphin `.rvz`) and play. See [Windows](#windows) and [Mac](#mac).
+> **Windows: download from BlueWake.** The ready-made Windows build is on
+> [BlueWake's Releases page](https://github.com/chrissotraidis/bluewake/releases/latest); at the first launch you choose your disc image and play.
+> **Mac:** build BlueWake from your own disc ([how](https://github.com/chrissotraidis/bluewake#getting-started)). See [Windows](#windows) and [Mac](#mac).
 >
 > **iPhone and iPad: build your own.** No prebuilt IPA is provided. You build it on a Mac from your disc
 > and install it on your own device; see [iPhone and iPad](#iphone-and-ipad).
@@ -157,8 +159,7 @@ inversion and button remapping are under **⋯ › Controller**, and the game's 
 
 ## Windows
 
-**Download:** `WindWakerRecomp-<version>-windows-x64.zip` from the
-[Releases page](https://github.com/elliotttate/Wind-Waker-Recomp/releases).
+**Download:** the Windows build from [BlueWake's Releases page](https://github.com/chrissotraidis/bluewake/releases/latest).
 
 1. Unpack the whole folder anywhere and run `BlueWake.exe`. It is not signed, so Windows may say it
    protected your PC: choose **More info**, then **Run anyway**.
@@ -179,8 +180,8 @@ on the `windows-release` branch, where the Windows port lives.
 
 ## Mac
 
-**Download:** `WindWakerRecomp-<version>-macos-arm64.zip` from the
-[Releases page](https://github.com/elliotttate/Wind-Waker-Recomp/releases).
+**Download:** ready-made Mac apps are no longer published. Build BlueWake from your own disc on your
+Mac ([how](https://github.com/chrissotraidis/bluewake#getting-started)).
 
 1. Unzip it, drag **Wind Waker Recomp.app** to Applications and open it. The app is ad hoc signed, not
    notarized: if macOS blocks it, use **System Settings → Privacy & Security → Open Anyway**.
@@ -294,9 +295,9 @@ game's code. Details are in [docs/MODS.md](docs/MODS.md).
 
 ### Can I download it?
 
-Yes, for Windows and Mac: the [Releases page](https://github.com/elliotttate/Wind-Waker-Recomp/releases)
-has ready-made apps. They contain the recompiled game code and no game data; you supply your own disc
-image at the first launch. For iPhone and iPad you build your own on a Mac.
+For Windows, yes: [BlueWake's Releases page](https://github.com/chrissotraidis/bluewake/releases/latest) has the ready-made build. It contains the
+recompiled game code and no game data; you supply your own disc image at the first launch. For Mac,
+iPhone and iPad you build your own from your disc ([how](https://github.com/chrissotraidis/bluewake#getting-started)).
 
 ### Why does it need my disc?
 
